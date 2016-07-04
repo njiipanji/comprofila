@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="assets/img/favicon.png">
-	<title>Company Name | Contact Us</title>
+	<title>Company Org | Contact Us</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
@@ -19,7 +19,7 @@
 					<li role="presentation"><a href="#">About</a></li>
 					<li role="presentation" class="active"><a href="contact.php">Contact</a></li>
 				</ul>
-				<h3 class="text-muted"><a href="index.php"><span><img src="assets/img/favicon.png"></span> Company</a></h3>
+				<h3 class="text-muted" style="padding-top: 5px"><a href="index.php"><span><img src="assets/img/favicon.png"></span> Company</a></h3>
 			</nav>
 		</div>
 
@@ -66,7 +66,7 @@
 		</div>
 
 		<footer class="footer">
-			<p>Copyright &copy; Company Name 2016</p>
+			<p>Copyright &copy; Company Org 2016</p>
 		</footer>
 	</div>
 
