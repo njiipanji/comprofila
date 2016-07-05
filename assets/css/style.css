@@ -227,3 +227,108 @@ body {
   top: 0;
   overflow: auto;
 }
+
+.unit-sidebar-header {
+  background-color: rgb(252, 115, 104);
+  padding: 1px 15px;
+  color: white;
+  /* border-radius: 0px 10px 10px 0px; */
+  margin: auto;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 610px) {
+  .unit-sidebar-header h4 {
+    font-size: 14px;
+  }
+}
+
+.unit-sidebar-list {
+  font-size: 15px;
+  padding: 5px 10px;
+  font-weight: 600;
+  border-right: 1px #e5e5e5 solid;
+  border-left: 1px #e5e5e5 solid;
+  border-bottom: 1px #e5e5e5 solid;
+  margin-bottom: 15px;
+}
+
+.unit-sidebar-list ul {
+  padding: 0px;
+}
+
+.unit-sidebar-list ul li {
+  list-style-type: none;
+  padding: 7px 10px;
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+.unit-title-page {
+  font-weight: 600;
+  font-size: 28px;
+  border-left: 10px #fc7368 solid;
+  padding-left: 10px;
+}
+
+.unit-content-page {
+  font-size: 15px;
+  padding: 5px 20px;
+}
+
+.unit-content-page h4 {
+  font-weight: 600;
+  margin: 1px;
+}
+
+.unit-footer-page {
+  font-style: italic;
+  color: #fc7368;
+  padding-left: 20px;
+}
+
+.management-desc {
+  display: inline-block;
+  border-bottom: 1px #e5e5e5 solid;
+  margin: 4px 0px;
+  padding: 7px 0px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 530px) {
+  .management-desc img {
+    width: 50% !important;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  .management-desc {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width : 530px) and (max-device-width : 630px) {
+  .management-desc img {
+    width: 40% !important;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  .management-desc {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-device-width : 630px) and (max-device-width : 767px) {
+  .management-desc img {
+    width: 30% !important;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+  .management-desc {
+    text-align: center;
+  }
+}
+
+.management-desc img {
+  border-radius: 10px;
+}
+
+.img-title-ibw {
+  padding: 0px 0px 15px 0px;
+}
