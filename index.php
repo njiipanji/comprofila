@@ -48,30 +48,36 @@
 		<?php include "navbar.php"; ?>
 
 		<div class="row marketing">
-			<div class="col-lg-4">
-				<img src="assets/img/thumb-news.png" class="img-thumb">
-				<span class="img-content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. aku aku aku aku</p>
-					<p><strong>July, 4th 2016</strong></p>
-				</span>
+			<div class="col-md-4 col-lg-4">
 				<h3 class="bottom-content">
 					<span class="fa fa-newspaper-o" aria-hidden="true"></span> LATEST NEWS
 				</h3>
-			</div>
-			<div class="col-lg-4">
-				<img src="assets/img/thumb-highlights.png" class="img-thumb">
-				<span class="img-content">
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<p><strong>June, 30th 2016</strong></p>
+				<img src="assets/img/thumb-news.png" class="img-thumb img-responsive">
+				<span>
+					<p>
+						<strong>July, 4th 2016</strong><br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
 				</span>
+			</div>
+			<div class="col-md-4 col-lg-4">
 				<h3 class="bottom-content">
 					<span class="fa fa-bullhorn" aria-hidden="true"></span> HIGHLIGHTS OF THE DAY
 				</h3>
+				<img src="assets/img/thumb-highlights.png" class="img-thumb img-responsive">
+				<span>
+					<p>
+						<strong>June, 30th 2016</strong><br>
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</p>
+				</span>
 			</div>
-			<div class="col-lg-4">
-				<img src="assets/img/thumb-ctc.png" class="img-thumb">
-				<span class="img-content">
+			<div class="col-md-4 col-lg-4">
+				<h3 class="bottom-content">
+					<span class="fa fa-envelope-o" aria-hidden="true"></span> CONTACT US
+				</h3>
+				<img src="assets/img/thumb-ctc.png" class="img-thumb img-responsive">
+				<span>
 					<p>
 						<strong>Head Office</strong><br>
 						Jalan Teknik Hidrodinamika VIII 98, Surabaya, Indonesia.<br>
@@ -79,9 +85,6 @@
 						+6281 2345 6789
 					</p>
 				</span>
-				<h3 class="bottom-content">
-					<span class="fa fa-envelope-o" aria-hidden="true"></span> CONTACT US
-				</h3>
 			</div>
 		</div>
 
