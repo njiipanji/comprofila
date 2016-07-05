@@ -4,9 +4,9 @@
 			<a href="#" data-toggle="dropdown" class="dropdown-toggle menu-nav"><i class="fa fa-group" aria-hidden="true"></i> IBW Group <b class="caret"></b></a>
 			<ul class="dropdown-menu" id="ibw-menu">
 				<li>
-					<a href="#"><i class="fa fa-user" aria-hidden="true"></i> Founder</a>
-					<a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> Management</a>
-					<a href="#"><i class="fa fa-bank" aria-hidden="true"></i> Corporate Value</a>
+					<a href="founder.php"><i class="fa fa-user" aria-hidden="true"></i> Founder</a>
+					<a href="management.php"><i class="fa fa-cogs" aria-hidden="true"></i> Management</a>
+					<a href="corpvalue.php"><i class="fa fa-bank" aria-hidden="true"></i> Corporate Value</a>
 				</li>
 			</ul>
 		</li>
@@ -16,54 +16,30 @@
 				<li class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="row">
 						<div class="col-md-3 col-lg-3 unit-content">
-							<a href="#">
+							<a href="unit.php?id=1">
 								<img src="assets/img/unit.png" class="img-responsive">
 								<span class="img-unit-content">UNIT 1</span>
 							</a>
 						</div>
 						<div class="col-md-3 col-lg-3 unit-content">
-							<a href="#">
+							<a href="unit.php?id=2">
 								<img src="assets/img/unit.png" class="img-responsive">
 								<span class="img-unit-content">UNIT 2</span>
 							</a>
 						</div>
 						<div class="col-md-3 col-lg-3 unit-content">
-							<a href="#">
+							<a href="unit.php?id=3">
 								<img src="assets/img/unit.png" class="img-responsive">
 								<span class="img-unit-content">UNIT 3</span>
 							</a>
 						</div>
 						<div class="col-md-3 col-lg-3 unit-content">
-							<a href="#">
+							<a href="unit.php?id=4">
 								<img src="assets/img/unit.png" class="img-responsive">
 								<span class="img-unit-content">UNIT 4</span>
 							</a>
 						</div>
 					</div>
-<!--					<div class="unit-content">
-						<a href="#">
-							<img src="assets/img/unit.png">
-							<span class="img-unit-content">Unit 1</span>
-						</a>
-					</div>
-					<div class="unit-content">
-						<a href="#">
-							<img src="assets/img/unit.png">
-							<span class="img-unit-content">Unit 2</span>
-						</a>
-					</div>
-					<div class="unit-content">
-						<a href="#">
-							<img src="assets/img/unit.png">
-							<span class="img-unit-content">Unit 3</span>
-						</a>
-					</div>
-					<div class="unit-content">
-						<a href="#">
-							<img src="assets/img/unit.png">
-							<span class="img-unit-content">Unit 4</span>
-						</a>
-					</div> -->
 				</li>
 			</ul>
 		</li>
