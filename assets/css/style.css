@@ -332,3 +332,41 @@ body {
 .img-title-ibw {
   padding: 0px 0px 15px 0px;
 }
+
+@media only screen and (max-device-width: 991px) {
+  .marketbox {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .marketbox span p {
+    margin: 0px;
+  }
+}
+
+.imgcarousel img {
+    height: 373px; 
+    max-height: 373px;
+  }
+
+@media only screen and (min-device-width : 922px) {
+  .imgcarousel img {
+    height: 373px !important;
+    max-height: 373px !important;
+  }
+}
+
+@media only screen and (min-device-width : 767px) and (max-device-width : 922px) {
+  .imgcarousel img {
+    height: 303px !important;
+    max-height: 303px !important;
+  }
+}
+
+@media only screen and (min-device-width : 629px) and (max-device-width : 767px) {
+  .imgcarousel img {
+    height: 223px !important;
+    max-height: 223px !important;
+  }
+}
