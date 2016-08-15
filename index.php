@@ -12,31 +12,22 @@
 </head>
 <body>
 	<div class="container">
-		<div class="header clearfix">
-			<nav>
-				<ul class="nav nav-pills pull-right">
-					<li role="presentation" class="active"><a href="index.php">Home</a></li>
-					<li role="presentation"><a href="#">About</a></li>
-					<li role="presentation"><a href="contact.php">Contact</a></li>
-				</ul>
-				<h3 class="text-muted" style="padding-top: 5px"><a href="index.php"><span><img src="assets/img/favicon.png"></span> Company</a></h3>
-			</nav>
-		</div>
+		<?php include "header.php"; ?>
 
 		<div class="row marketing" style="padding: 0px 15px">
 			<div id="slideshow" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<img src="assets/img/slide1.png" alt="Slide1" width="100%">
+					<div class="item active imgcarousel">
+						<img class="imgcarousel" src="assets/img/slide1.png" alt="Slide1" width="100%">
 					</div>
-					<div class="item">
-						<img src="assets/img/slide2.png" alt="Slide2" width="100%">
+					<div class="item imgcarousel">
+						<img class="imgcarousel" src="assets/img/slide2.png" alt="Slide2" width="100%">
 					</div>
-					<div class="item">
-						<img src="assets/img/slide3.png" alt="Slide3" width="100%">
+					<div class="item imgcarousel">
+						<img class="imgcarousel" src="assets/img/slide3.png" alt="Slide3" width="100%">
 					</div>
-					<div class="item">
-						<img src="assets/img/slide4.png" alt="Slide4" width="100%">
+					<div class="item imgcarousel">
+						<img class="imgcarousel" src="assets/img/slide4.png" alt="Slide4" width="100%">
 					</div>
 				</div>
 
@@ -48,7 +39,7 @@
 		<?php include "navbar.php"; ?>
 
 		<div class="row marketing">
-			<div class="col-md-4 col-lg-4">
+			<div class="col-md-4 col-lg-4 marketbox">
 				<h3 class="bottom-content">
 					<span class="fa fa-newspaper-o" aria-hidden="true"></span> LATEST NEWS
 				</h3>
@@ -60,7 +51,7 @@
 					</p>
 				</span>
 			</div>
-			<div class="col-md-4 col-lg-4">
+			<div class="col-md-4 col-lg-4 marketbox">
 				<h3 class="bottom-content">
 					<span class="fa fa-bullhorn" aria-hidden="true"></span> HIGHLIGHTS OF THE DAY
 				</h3>
@@ -72,7 +63,7 @@
 					</p>
 				</span>
 			</div>
-			<div class="col-md-4 col-lg-4">
+			<div class="col-md-4 col-lg-4 marketbox">
 				<h3 class="bottom-content">
 					<span class="fa fa-envelope-o" aria-hidden="true"></span> CONTACT US
 				</h3>
