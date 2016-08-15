@@ -12,16 +12,7 @@
 </head>
 <body>
 	<div class="container">
-		<div class="header clearfix">
-			<nav>
-				<ul class="nav nav-pills pull-right">
-					<li role="presentation"><a href="index.php">Home</a></li>
-					<li role="presentation"><a href="#">About</a></li>
-					<li role="presentation"><a href="contact.php">Contact</a></li>
-				</ul>
-				<h3 class="text-muted" style="padding-top: 5px"><a href="index.php"><span><img src="assets/img/favicon.png"></span> Company</a></h3>
-			</nav>
-		</div>
+		<?php include "header.php"; ?>
 
 		<div class="row marketing">
 			<img src="assets/img/unit.png" height="300px" width="100%">
