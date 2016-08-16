@@ -8,7 +8,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<h3 class="text-muted" style="padding: 10px 0px"><a href="index.php"><span><img src="assets/img/slide1.png" style="height: 30px"></span> Company</a></h3>
+				<h3 class="text-muted" style="padding: 10px 0px"><a href="index.php"><span><img src="assets/img/favicon.png" style="height: 30px"></span> Company</a></h3>
 			</div>
 			<div class="collapse navbar-collapse" id="navmobile">
 				<ul class="nav navbar-nav">
